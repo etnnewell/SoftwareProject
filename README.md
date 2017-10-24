@@ -4,6 +4,9 @@ Trello - https://trello.com/softwareproject26
 
 Supervisor - Professor Frederic Fol Leymarie - ffl@gold.ac.uk - meetings Tuesdays 11am in the SU 
 
+--- 
+
+
 To add to the git 
 
 FIRST make sure you have the git cloned into a folder you can locate.
