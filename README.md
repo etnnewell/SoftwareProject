@@ -17,7 +17,7 @@ change the directory you’re currently in by using the ‘cd’ command
 
 drag the newly cloned git repo and press enter 
 
-——
+---
 
 To add a new file type ‘git add’ and the file name 
  
@@ -27,7 +27,7 @@ Followed by ‘git commit -am “Your Commit Message here”’
 
 If there’s no conflicts and merge is successful, use ‘Git push’
 
-— 
+---
 
 To Edit a file 
 
