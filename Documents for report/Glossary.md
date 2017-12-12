@@ -7,3 +7,4 @@ OAuth - Open standard for access delegation, used to grant users access to third
 account information from larger companies such as Google or Facebook.
 API - Application programming interface: a set of protocols and tools for building software.
 Escrow - A bond that is kept in custody that will take effect when a specified condition has been met.
+Image segmentation - Dividing a digital image into multiple segments or groups of pixels based on certain criteria.
