@@ -4,3 +4,6 @@
 
 PM section
 Principles behind the Agile Manifesto - Agilemanifesto.org - 	http://agilemanifesto.org/principles.html - add authors too.
+
+Data gathering section
+http://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7706
