@@ -1,10 +1,6 @@
 # References
 #### Store any references here to be used later in the reports.
 
-
-PM section
-Principles behind the Agile Manifesto - Agilemanifesto.org - 	http://agilemanifesto.org/principles.html - add authors too.
-
 Data gathering section
 http://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7706
 
@@ -17,3 +13,22 @@ Ethical
 
 Conceptual Prototype
 Marvel App - App used to create conceptual prototypes - https://marvelapp.com/ - creator: Marvel Prototyping LTD
+
+Functional Prototypes
+Ketai
+Unity3D
+Vuforia
+MongoDB
+mLab
+PyMongo
+
+Technical Architecture
+SOMETHING REGARDING MONGO VS MYSQL PREFERABLY ACADEMIC
+feedback from potential users regarding tablets?
+image segmentation reference - academic paper pref. 
+Wikitude
+API atm which says pusher but to be updated
+
+PM section
+Principles behind the Agile Manifesto - Agilemanifesto.org - 	http://agilemanifesto.org/principles.html - add authors too.
+
