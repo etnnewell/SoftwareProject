@@ -32,3 +32,7 @@ API atm which says pusher but to be updated
 ### PM section
 Principles behind the Agile Manifesto - Agilemanifesto.org - 	http://agilemanifesto.org/principles.html - add authors too.
 
+### Appendix
+#### Data gathering
+Project based AR	- academic
+Recognition based AR	- academic
