@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectControllerFromTut : MonoBehaviour {
+public class ObjectController: MonoBehaviour {
+
+	//This simply removes the grid when dragging furniture out into the world.
 
 	private InstantTrackingController trackerScript;
 	//private GameObject ButtonsParent;
