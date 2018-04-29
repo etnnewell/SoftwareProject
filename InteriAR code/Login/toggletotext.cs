@@ -29,7 +29,7 @@ public class toggletotext : MonoBehaviour {
     public Text user2;
 
 
-    public void Start () {
+    public void Start () {  //temp method (NOT CORE METHOD i.e. not important)
 
         if (mr.isOn == true)
         {
