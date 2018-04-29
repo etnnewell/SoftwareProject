@@ -20,7 +20,8 @@ public class ifimgspritenull : MonoBehaviour {
 	public Button Img_5;
 	public Button Img_6;
 
-	void Start () {
+	void Start () {  //if user has not yet taken any images with the AR camera, then make all Image Objects non-interactable. else if
+		         //user has taken images with the AR camera, then make all Image Objects interactable so user can enter the gallery
 
 
 		if (Img.sprite == null) {
