@@ -35,7 +35,8 @@ public class UpdateDecoratorProfileCreateAccount : MonoBehaviour
 
 	public Text login;
 
-	public void scenes()
+	public void scenes()  //when user has finished editing their profile and presses the submit button, this method essentially
+	                      //updates the users account on the database with the new information user has provided
 	{
 		counter = 0;
 		Debug.Log("successful");
