@@ -128,7 +128,7 @@ public class CreateAccountForEditDecoratorProfile : MonoBehaviour {
 
 
 
-	public int age()
+	public int age() //turns the age input field from a string, into an integer 
 	{
 
 		int age = int.Parse(myage.text);
