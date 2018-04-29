@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class screenorientation : MonoBehaviour {
 
-	// Use this for initialization
+	// orientate the screen portrait (for all screens other than the AR camera)
 	void Start () {
 		Screen.orientation = ScreenOrientation.Portrait;
 	}
