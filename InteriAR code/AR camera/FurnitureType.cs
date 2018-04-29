@@ -2,6 +2,8 @@
 
 public class FurnitureType : MonoBehaviour {
 
+	//This script handles the differing furniture sections in the menu. The individual methods are attached to buttons.
+
 	public GameObject Seating;
 	public GameObject Tables;
 	public GameObject Storage;

@@ -3,6 +3,8 @@
 public class RotationController : MonoBehaviour {
 
 
+	//Original rotation controller,  time based.
+
 	private InstantTrackingController _controller;
 	private Transform _activeObject = null;
 
