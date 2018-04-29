@@ -26,7 +26,8 @@ public class UpdateUserProfileLogin : MonoBehaviour {
 
 
 
-	public void generate()
+	public void generate() //when user has finished editing their profile and presses the submit button, this method essentially
+	                      //updates the users account on the database with the new information user has provided
 	{
 		var name = "ishtiyaq";
 		var pass = "1234";
