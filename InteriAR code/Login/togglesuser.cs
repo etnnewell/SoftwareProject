@@ -30,7 +30,9 @@ public class togglesuser : MonoBehaviour
 
     public void showfields()
     {
-        if (user.isOn == true)
+        if (user.isOn == true) //if in the create account screen, the user profile toggle is on (i.e. ticked), then make all input
+                               //fields stored from letters a to o visible and make letters p and q still invisible (these two input fields
+			       //are for decorators only.) else make all input fields stored from letters a to q invisible
         {
             a.SetActive(true);
             b.SetActive(true);
