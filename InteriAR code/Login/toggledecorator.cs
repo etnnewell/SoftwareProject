@@ -27,7 +27,8 @@ public class toggledecorator : MonoBehaviour
 	public GameObject o;
 	public GameObject p;
 	public GameObject q;
-    public void showfields()
+    public void showfields()   //if in the create account screen, the decorator profile toggle is on (i.e. ticked), then make all input
+                               //fields stored from letters a to q visible. else make all input fields stored from letters a to q invisible
     {
 		if (decorator.isOn == true)
 		{
