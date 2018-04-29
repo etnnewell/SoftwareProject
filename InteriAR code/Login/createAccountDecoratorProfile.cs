@@ -13,7 +13,7 @@ public class createAccountDecoratorProfile : MonoBehaviour {
     public Text eaddress;
     public Text cname;
     public Text jtitle;
-    void Start()
+    void Start()  //stores all information inputted in create account screen within the users profile 
     {
         fname.text = fname.text + " " + PlayerPrefs.GetString("fname");
         lname.text = lname.text + " " + PlayerPrefs.GetString("lname");
