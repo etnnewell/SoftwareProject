@@ -19,7 +19,10 @@ public class ImageNav : MonoBehaviour {
 
 	public static int counter = 0;
 	// Use this for initialization
-	void Start () {
+	void Start () {  //this method essentially is used to initalise the gallery. if user clicks on any one of the six images stored
+		         //in their phone, it will take them to that image in the gallery. each image has a counter variable ID number from
+		         //1 to 6. the number zero is also an ID number in the gallery, but this will used as our welcome screen to the 
+		         //users
 		if (counter == 0) {
 			txt.text = counter.ToString ();
 			imgnotexist.SetActive (true);
@@ -158,7 +161,7 @@ public class ImageNav : MonoBehaviour {
 
 	}
 
-	public void rightarrow() {
+	public void rightarrow() { //this methods takes user to the next image within the gallery
 		Debug.Log (counter);
 
 		try{
@@ -188,8 +191,8 @@ public class ImageNav : MonoBehaviour {
 		}
 
 	}
-
-	public void leftarrow() {
+ 
+	public void leftarrow() {  //this method takes user to the previous image in the gallery
 		Debug.Log (counter);
 		try {
 		if (counter > 0) {
@@ -228,7 +231,7 @@ public class ImageNav : MonoBehaviour {
 	}
 
 
-	public void deletebtn() {
+	public void deletebtn() {  //this deletes an image in the gallery 
 
 		try {
 
