@@ -15,7 +15,8 @@ public class StoreimgDecorator : ImageNav {
 	public Button Img_2;
 	public Button Img_3;
 
-	public void Start()
+	public void Start() //this method searches the database to find the users account so it can find the images they took on the 
+		            //AR camera and display them in their profile
 	{
 
 		var name = "ishtiyaq";
@@ -122,15 +123,15 @@ public class StoreimgDecorator : ImageNav {
 		Img_3.onClick.AddListener (img3_counter);
 
 	}
-	public void img1_counter() {
+	public void img1_counter() {  //initialises counter to 1
 
 		counter = 1;
 	
 	}
-	public void img2_counter() {
+	public void img2_counter() {//initialises counter to 2
 
 		counter = 2;
-	}	public void img3_counter() {
+	}	public void img3_counter() {//initialises counter to 3
 
 		counter = 3;
 	}
