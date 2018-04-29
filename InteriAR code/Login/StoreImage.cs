@@ -25,7 +25,8 @@ public class StoreImage : ImageNav {
 
 
 
-	public void Start()
+	public void Start() //this method searches the database to find the users account so it can find the images they took on the 
+		            //AR camera and display them in their profile
 	{
 		var name = "ishtiyaq";
 		var pass = "1234";
@@ -149,23 +150,23 @@ public class StoreImage : ImageNav {
 	}
 		
 
-	public void img1_counter() {
+	public void img1_counter() {  //initialise counter to 1
 
 		counter = 1;
 	}
-	public void img2_counter() {
+	public void img2_counter() { //initialise counter to 2
 
 		counter = 2;
-	}	public void img3_counter() {
+	}	public void img3_counter() { //initialise counter to 3
 
 		counter = 3;
-	}	public void img4_counter() {
+	}	public void img4_counter() { //initialise counter to 4
 
 		counter = 4;
-	}	public void img5_counter() {
+	}	public void img5_counter() { //initialise counter to 5
 
 		counter = 5;
-	}	public void img6_counter() {
+	}	public void img6_counter() { //initialise counter to 6
 
 		counter = 6;
 	}
