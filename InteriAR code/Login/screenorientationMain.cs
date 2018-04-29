@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class screenorientationMain : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	
+	void Start () { // orientate the screen landscapeLeft (only for the AR camera)
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
 
 
