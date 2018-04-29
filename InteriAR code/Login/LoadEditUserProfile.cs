@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadEditUserProfile : MonoBehaviour {
 
-	// Use this for initialization
+	// Used to load any scene within our program
 	public void loadscene (string a) {
 		SceneManager.LoadScene(a);
 
