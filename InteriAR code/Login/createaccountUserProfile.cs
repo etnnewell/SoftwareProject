@@ -16,7 +16,7 @@ public class createaccountUserProfile : MonoBehaviour {
     public Text age;
     public Text eaddress;
     // Use this for initialization
-    void Start () {
+    void Start () {  //stores all information inputted in create account screen within the users profile 
 
         fname.text = fname.text + " " + PlayerPrefs.GetString("fname");
         lname.text = lname.text + " " + PlayerPrefs.GetString("lname");
