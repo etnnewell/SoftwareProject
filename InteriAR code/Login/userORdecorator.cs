@@ -80,7 +80,9 @@ public class userORdecorator : MonoBehaviour
 	public GameObject loading;
 	public GameObject errormessage2;
 
-    public void scenes()
+    public void scenes() //if user toggle in create account screen was on (i.e. ticked), then store it in the database as a user account 
+                         //and load up theuserProfile screen. Else if decorator toggle in create account screen was on 
+			 //(i.e. ticked), then store it in the database as a decorator account and load up the decoratorProfile screen
     {
         counter = 0;
         if (user.isOn == true)
@@ -191,7 +193,9 @@ public class userORdecorator : MonoBehaviour
     }
 
 
-    public void ourmethod()
+    public void ourmethod() //evaluates the username and password inputted in the login screen. if it exists in the database, then it will
+                            //load up the users profile. if it doesn't exist, then an error message is displayed and user still be stuck on
+			    //the login screen, until they input a valid username and password
 	{
 		var name = "ishtiyaq";
 		var pass = "1234";
