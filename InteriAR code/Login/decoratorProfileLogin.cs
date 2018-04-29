@@ -18,7 +18,9 @@ public class decoratorProfileLogin : MonoBehaviour {
     public Text companyname;
     public Text jobtitle;
 
-    void Start()
+    void Start()    //this method stores all information about the user within their profile, once they have successfully logged in.
+	            //it querys the username & password inputted and if it exists in the database, it will get all information from 
+	            //the document that it is stored in and display it in the users profile
     {
         var name = "ishtiyaq";
         var pass = "1234";
